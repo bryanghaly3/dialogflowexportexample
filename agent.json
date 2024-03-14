@@ -1,0 +1,55 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
+  "projectNumber": 67362550768,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+      "uri": "ncinc-gcp-audiooutput-test"
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+        
+        }
+      }
+    } ]
+  },
+  "duplexSettings": {
+  
+  },
+  "callCompanionSettings": {
+    "company": "NCINC"
+  },
+  "answerFeedbackSettings": {
+    "enableAnswerFeedback": true
+  },
+  "webClientSettings": {
+    "displayName": "NCINC"
+  }
+}
